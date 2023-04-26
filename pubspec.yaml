@@ -1,0 +1,37 @@
+name: coffee_world
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  card_swiper: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/
+
+  fonts:
+    - family: "Lobster"
+      fonts:
+        - asset: assets/fonts/LobsterTwo-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/LobsterTwo-Italic.ttf
+          style: italic
