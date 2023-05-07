@@ -15,3 +15,7 @@ The app features a straightforward layout using Material Design components, a He
 Here's a GIF of the app in action:
 
 ![App Demo](demo.gif)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
